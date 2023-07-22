@@ -97,7 +97,7 @@ namespace CMD_Tic_Tac_Toe
 
         public bool checkDraw()
         {
-            if (checkForWin() != Player.None) return false;
+            //if (checkForWin() != Player.None) return false;
             bool emptySpot = false;
             for(int i = 0; i < 9; i++)
             {
